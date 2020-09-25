@@ -14,9 +14,6 @@ app.use(express.json());
 // }
 // ***This was copy and pasted. I do no understand how to use this. ASK PHIL.
 
-// Add routes, both API and view
-app.use(routes);
-
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/employee_data"); // Changed server to employee_data
 

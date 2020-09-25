@@ -18,10 +18,6 @@ const emplSchema = new Schema({
         type: Number,
         required: true
     },
-    role: {
-        type: String,
-        required: true
-    }
 })
 
 const Employees = mongoose.model("Employees", emplSchema)
