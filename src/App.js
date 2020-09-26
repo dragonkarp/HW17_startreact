@@ -36,6 +36,7 @@ function App() {
 
     console.log(value)
     console.log([name])
+    
     const newEmployees = employees.originalList.filter(person => {
       return person.name.first.toLowerCase().includes(value.toLowerCase())
     })
